@@ -1,0 +1,146 @@
+/* ─── Hero ───────────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(160deg, var(--color-primary) 0%, #4a3028 100%);
+  color: var(--color-white);
+  padding: 6rem 2rem 5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4a96a' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease both;
+}
+
+.ornament {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--color-accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.heroTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+}
+
+.heroTitle em {
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+.heroDivider {
+  width: 60px;
+  height: 2px;
+  background: var(--color-accent);
+  margin: 1.5rem auto;
+  border: none;
+}
+
+.heroText {
+  font-size: 1.05rem;
+  color: rgba(255, 248, 240, 0.85);
+  line-height: 1.8;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* ─── Interviews section ─────────────────────────────────── */
+.section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.6s ease 0.2s both;
+}
+
+.sectionLabel {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent-dark);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--color-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  animation: fadeInUp 0.6s ease 0.4s both;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 4rem 1.25rem 3.5rem;
+  }
+  .section {
+    padding: 3.5rem 1.25rem;
+  }
+}
+
+/* ─── Quote band ─────────────────────────────────────────── */
+.quoteBand {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+.quote {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+  color: var(--color-primary);
+  max-width: 640px;
+  margin: 0 auto 0.75rem;
+  line-height: 1.6;
+}
+
+.quoteAuthor {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
