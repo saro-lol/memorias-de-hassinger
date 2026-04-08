@@ -69,64 +69,6 @@ export default function Entrevista2() {
         </p>
       </section>
 
-      {/* ── Timestamps ── */}
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Capítulos del video</h2>
-        <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '1rem', fontStyle: 'italic' }}>
-          Los tiempos son aproximados y pueden variar según la grabación.
-        </p>
-        <ul className={styles.timestampList}>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>0:00</span>
-            <span className={styles.timestampLabel}>Introducción a la segunda sesión</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>1:30</span>
-            <span className={styles.timestampLabel}>Abuelo paterno: Jorge Hassinger Monz y su muerte en La Merced</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>6:00</span>
-            <span className={styles.timestampLabel}>Abuela materna: Gertrudis Colonio "mamá Jetro" y sus fiestas de cumpleaños</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>11:00</span>
-            <span className={styles.timestampLabel}>La cultura de celebración familiar y el Club Social de Oxapampa</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>17:00</span>
-            <span className={styles.timestampLabel}>Llegada al pueblo y el círculo de amigos de la infancia</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>23:00</span>
-            <span className={styles.timestampLabel}>El grupo de siete amigas inseparables y los domingos en el parque</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>30:00</span>
-            <span className={styles.timestampLabel}>Las aventuras: bicicletas, motos y el caballo desbocado hasta Quiasú</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>38:00</span>
-            <span className={styles.timestampLabel}>Aprendiendo rock and roll en la terraza con champán y marrasquinos</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>44:00</span>
-            <span className={styles.timestampLabel}>Los estudios en Lima: el Art Studio y tres años de corte y confección</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>50:00</span>
-            <span className={styles.timestampLabel}>El terremoto en Lima — la huida del Art Studio y el regreso a las diez de la noche</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>57:00</span>
-            <span className={styles.timestampLabel}>Cómo llegó Pepe Romero a Oxapampa y conoció a su padre</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>63:00</span>
-            <span className={styles.timestampLabel}>Nueve años de insistencia, la pedida de mano y la boda</span>
-          </li>
-        </ul>
-      </section>
-
       {/* ── Puntos importantes ── */}
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Puntos importantes</h2>

@@ -23,6 +23,34 @@
   animation: fadeInUp 0.8s ease both;
 }
 
+.heroPortrait {
+  margin: 0 auto 2rem;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--color-accent);
+  box-shadow: 0 0 0 6px rgba(212, 169, 106, 0.2), 0 8px 32px rgba(0,0,0,0.35);
+}
+
+.heroPortrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  filter: sepia(20%);
+}
+
+.heroPortraitCaption {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: rgba(255, 248, 240, 0.6);
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
 .ornament {
   font-family: var(--font-heading);
   font-style: italic;

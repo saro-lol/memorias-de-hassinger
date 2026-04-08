@@ -2,7 +2,7 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 
 export const metadata = {
-  title: 'Memorias de Hassinger',
+  title: 'Memorias de Iris',
   description:
     'Un archivo de amor para preservar las historias, recuerdos y sabiduría de nuestra abuela.',
 };
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
             background: 'var(--color-surface)',
           }}
         >
-          Hecho con amor · Memorias de Hassinger
+          Hecho con amor · Memorias de Iris
         </footer>
       </body>
     </html>

@@ -68,56 +68,6 @@ export default function Entrevista1() {
         </p>
       </section>
 
-      {/* ── Timestamps ── */}
-      <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Capítulos del video</h2>
-        <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '1rem', fontStyle: 'italic' }}>
-          Los tiempos son aproximados y pueden variar según la grabación.
-        </p>
-        <ul className={styles.timestampList}>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>0:00</span>
-            <span className={styles.timestampLabel}>Presentación — nombre, fecha y lugar de nacimiento</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>2:30</span>
-            <span className={styles.timestampLabel}>La infancia en el fundo San Francisco</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>7:00</span>
-            <span className={styles.timestampLabel}>Los hermanos: familia de doce hijos</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>14:00</span>
-            <span className={styles.timestampLabel}>Las comidas de la casa: pan de maíz, caldo, charque y más</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>20:00</span>
-            <span className={styles.timestampLabel}>El padre: la chacra, el camión y sus mil oficios</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>28:00</span>
-            <span className={styles.timestampLabel}>Los embutidos alemanes, el ahumadero y el chucrut</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>35:00</span>
-            <span className={styles.timestampLabel}>La carpintería: puertas, muebles y accidentes sin drama</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>40:00</span>
-            <span className={styles.timestampLabel}>Recuerdos de hermanos: Eulalia, Emilio, Fernando, Hilda y Laura</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>52:00</span>
-            <span className={styles.timestampLabel}>El colegio con las monjas españolas — la madre Antonia</span>
-          </li>
-          <li className={styles.timestampItem}>
-            <span className={styles.timestampTime}>58:00</span>
-            <span className={styles.timestampLabel}>El concurso de canto y el escándalo del baile</span>
-          </li>
-        </ul>
-      </section>
-
       {/* ── Puntos importantes ── */}
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Puntos importantes</h2>

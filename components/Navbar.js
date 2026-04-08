@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.inner}>
         <Link href="/" className={styles.logo}>
-          Memorias de Hassinger
+          Memorias de Iris
         </Link>
 
         <button

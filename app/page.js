@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import InterviewCard from '../components/InterviewCard';
 import styles from './page.module.css';
 
@@ -31,9 +32,19 @@ export default function Home() {
       {/* ── Hero ── */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
+          <div className={styles.heroPortrait}>
+            <Image
+              src="/WhatsApp Image 2026-04-05 at 8.41.02 PM.jpeg"
+              alt="Iris Teresa Hassinger Verde"
+              width={160}
+              height={160}
+              priority
+            />
+          </div>
+          <span className={styles.heroPortraitCaption}>Iris Teresa Hassinger Verde</span>
           <span className={styles.ornament}>Archivo de memorias</span>
           <h1 className={styles.heroTitle}>
-            Memorias de <em>Hassinger</em>
+            Memorias de <em>Iris</em>
           </h1>
           <hr className={styles.heroDivider} />
           <p className={styles.heroText}>
